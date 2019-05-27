@@ -18,6 +18,7 @@
 
     "http_directory": "http",
     "guest_additions_url": "http://download.virtualbox.org/virtualbox/{{.Version}}/VBoxGuestAdditions_{{.Version}}.iso",
+    "guest_additions_path": "/tmp/VBoxGuestAdditions.iso",
 
     "ssh_username": "vagrant",
     "ssh_password": "vagrant",
